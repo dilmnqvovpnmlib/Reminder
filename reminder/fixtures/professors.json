@@ -1,0 +1,75 @@
+[
+  {
+    "model": "lecture.professor",
+    "pk": 1,
+    "fields": {
+      "name": "新田直子",
+      "created": "2020-06-13T16:17:34",
+      "update": "2020-06-13T16:17:34"
+    }
+  }, {
+    "model": "lecture.professor",
+    "pk": 2,
+    "fields": {
+      "name": "駒谷和範",
+      "created": "2020-06-13T16:17:34",
+      "update": "2020-06-13T16:17:34"
+    }
+  }, {
+    "model": "lecture.professor",
+    "pk": 3,
+    "fields": {
+      "name": "野口 ジュディー 津多江",
+      "created": "2020-06-13T16:17:34",
+      "update": "2020-06-13T16:17:34"
+    }
+  }, {
+    "model": "lecture.professor",
+    "pk": 4,
+    "fields": {
+      "name": "丸田章博",
+      "created": "2020-06-13T16:17:34",
+      "update": "2020-06-13T16:17:34"
+    }
+  }, {
+    "model": "lecture.professor",
+    "pk": 5,
+    "fields": {
+      "name": "三瓶政一",
+      "created": "2020-06-13T16:17:34",
+      "update": "2020-06-13T16:17:34"
+    }
+  }, {
+    "model": "lecture.professor",
+    "pk": 6,
+    "fields": {
+      "name": "廣瀬哲也",
+      "created": "2020-06-13T16:17:34",
+      "update": "2020-06-13T16:17:34"
+    }
+  }, {
+    "model": "lecture.professor",
+    "pk": 7,
+    "fields": {
+      "name": "兒玉了祐",
+      "created": "2020-06-13T16:17:34",
+      "update": "2020-06-13T16:17:34"
+    }
+  }, {
+    "model": "lecture.professor",
+    "pk": 8,
+    "fields": {
+      "name": "井上恭",
+      "created": "2020-06-13T16:17:34",
+      "update": "2020-06-13T16:17:34"
+    }
+  }, {
+    "model": "lecture.professor",
+    "pk": 9,
+    "fields": {
+      "name": "宮地充子",
+      "created": "2020-06-13T16:17:34",
+      "update": "2020-06-13T16:17:34"
+    }
+  }
+]

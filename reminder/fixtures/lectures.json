@@ -1,0 +1,113 @@
+[
+  {
+    "model": "lecture.lecture",
+    "pk": 1,
+    "fields": {
+      "name": "マルチメディア信号解析",
+      "professor": 1,
+      "year": 2020,
+      "period": 0,
+      "created": "2020-06-13T16:17:34",
+      "update": "2020-06-13T16:17:34"
+    }
+  }, {
+    "model": "lecture.lecture",
+    "pk": 2,
+    "fields": {
+      "name": "知的情報処理論",
+      "professor": 2,
+      "year": 2020,
+      "period": 0,
+      "created": "2020-06-13T16:17:34",
+      "update": "2020-06-13T16:17:34"
+    }
+  }, {
+    "model": "lecture.lecture",
+    "pk": 3,
+    "fields": {
+      "name": "工学英語 I",
+      "professor": 3,
+      "year": 2020,
+      "period": 0,
+      "created": "2020-06-13T16:17:34",
+      "update": "2020-06-13T16:17:34"
+    }
+  }, {
+    "model": "lecture.lecture",
+    "pk": 4,
+    "fields": {
+      "name": "フォトニックネットワーク工学",
+      "professor": 4,
+      "year": 2020,
+      "period": 0,
+      "created": "2020-06-13T16:17:34",
+      "update": "2020-06-13T16:17:34"
+    }
+  }, {
+    "model": "lecture.lecture",
+    "pk": 5,
+    "fields": {
+      "name": "移動体通信工学",
+      "professor": 5,
+      "year": 2020,
+      "period": 0,
+      "created": "2020-06-13T16:17:34",
+      "update": "2020-06-13T16:17:34"
+    }
+  }, {
+    "model": "lecture.lecture",
+    "pk": 6,
+    "fields": {
+      "name": "集積システム設計論",
+      "professor": 6,
+      "year": 2020,
+      "period": 0,
+      "created": "2020-06-13T16:17:34",
+      "update": "2020-06-13T16:17:34"
+    }
+  }, {
+    "model": "lecture.lecture",
+    "pk": 7,
+    "fields": {
+      "name": "凝縮応用物理学",
+      "professor": 7,
+      "year": 2020,
+      "period": 0,
+      "created": "2020-06-13T16:17:34",
+      "update": "2020-06-13T16:17:34"
+    }
+  }, {
+    "model": "lecture.lecture",
+    "pk": 8,
+    "fields": {
+      "name": "量子光工学",
+      "professor": 8,
+      "year": 2020,
+      "period": 0,
+      "created": "2020-06-13T16:17:34",
+      "update": "2020-06-13T16:17:34"
+    }
+  }, {
+    "model": "lecture.lecture",
+    "pk": 9,
+    "fields": {
+      "name": "高度サイバーセキュリティPBL I",
+      "professor": 9,
+      "year": 2020,
+      "period": 0,
+      "created": "2020-06-13T16:17:34",
+      "update": "2020-06-13T16:17:34"
+    }
+  }, {
+    "model": "lecture.lecture",
+    "pk": 10,
+    "fields": {
+      "name": "高度サイバーセキュリティPBL II",
+      "professor": 9,
+      "year": 2020,
+      "period": 0,
+      "created": "2020-06-13T16:17:34",
+      "update": "2020-06-13T16:17:34"
+    }
+  }
+]
