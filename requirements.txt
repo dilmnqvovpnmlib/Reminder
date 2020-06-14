@@ -1,1 +1,8 @@
 ipython
+django
+djangorestframework
+flake8
+isort
+line-bot-sdk
+django-braces
+python-dotenv
