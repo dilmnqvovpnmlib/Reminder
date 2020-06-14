@@ -20,11 +20,6 @@ jobs:
         uses: actions/setup-python@v1
         with:
           python-version: ${{ matrix.python-version }}
-        env:
-          LINE_CHANNEL_ID: ${{ secrets.LINE_CHANNEL_ID }}
-          LINE_CHANNEL_SECRET: ${{ secrets.LINE_CHANNEL_SECRET }}
-          LINE_ACCESS_TOKEN: ${{ secrets.LINE_ACCESS_TOKEN }}
-          GROUP_ID: ${{ secrets.GROUP_ID }}
       - name: Install Dependencies
         run: |
           python -m pip install --upgrade pip
@@ -32,3 +27,8 @@ jobs:
       - name: Run Tests
         run: |
           python ./reminder/manage.py test
+        env:
+          LINE_CHANNEL_ID: ${{ secrets.LINE_CHANNEL_ID }}
+          LINE_CHANNEL_SECRET: ${{ secrets.LINE_CHANNEL_SECRET }}
+          LINE_ACCESS_TOKEN: ${{ secrets.LINE_ACCESS_TOKEN }}
+          GROUP_ID: ${{ secrets.GROUP_ID }}
