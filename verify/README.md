@@ -1,4 +1,5 @@
 # Log
+まず、これ以下のディレクトリは検証用のディレクトリである。
 
 [LINE の Bot 開発 超入門（前編） ゼロから応答ができるまで](https://qiita.com/nkjm/items/38808bbc97d6927837cd)をベースに一通り LINE Bot で Hello World してみた
 
