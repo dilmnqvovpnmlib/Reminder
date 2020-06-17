@@ -24,7 +24,7 @@ class LectureViewSet(ModelViewSet):
 
 
 class TaskViewSet(ModelViewSet):
-    queryset = Task.objects.all()
+    queryset = Task.objects.filter(enable=True)
     serializer_class = TaskSerializer
 
 
