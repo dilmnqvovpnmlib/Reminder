@@ -3,6 +3,7 @@ FROM python:3.7
 MAINTAINER dilmnqvovpnmlib <simplelpmis6@gmail.com>
 
 ENV PYTHONUNBUFFERED 1
+ENV PYTHONDONTWRITEBYTECODE 1
 
 ENV TZ Asia/Tokyo
 
