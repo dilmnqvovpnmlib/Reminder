@@ -6,3 +6,5 @@ isort
 line-bot-sdk
 django-braces
 python-dotenv
+uwsgi
+mysqlclient
