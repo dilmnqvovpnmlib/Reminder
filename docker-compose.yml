@@ -1,0 +1,30 @@
+version: "3"
+
+services:
+  db:
+    image: mysql
+    container_name: db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: db
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      TZ: Asia/Tokyo
+    volumes:
+      - ./data:/var/lib/mysql
+      - ./conf/my.cnf:/etc/mysql/conf.d/my.cnf
+    command: mysqld
+    ports:
+      - 3306:3306
+  web:
+    build: .
+    container_name: web
+    ports:
+      - "81:80"
+    depends_on:
+      - db
+networks:
+  web:
+    driver: bridge
